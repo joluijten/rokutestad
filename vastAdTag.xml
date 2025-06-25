@@ -1,0 +1,32 @@
+<VAST version="3.0">
+  <Ad id="archivead">
+    <InLine>
+      <AdSystem>CustomAdSystem</AdSystem>
+      <AdTitle>Food Network Ad</AdTitle>
+      <Impression><![CDATA[https://example.com/impression]]></Impression>
+      <Creatives>
+        <Creative>
+          <Linear>
+            <Duration>00:00:30</Duration>
+            <TrackingEvents>
+              <Tracking event="start"><![CDATA[https://example.com/start]]></Tracking>
+              <Tracking event="complete"><![CDATA[https://example.com/complete]]></Tracking>
+            </TrackingEvents>
+            <MediaFiles>
+              <MediaFile 
+                delivery="progressive" 
+                type="video/mp4" 
+                width="1920" 
+                height="1080" 
+                bitrate="1500" 
+                scalable="true" 
+                maintainAspectRatio="true">
+                <![CDATA[https://archive.org/download/2022-commercials-vol-159-food-network-july-131080p/2022%20Commercials%20Vol%20159%20Food%20Network%20July%20131080p.mp4]]>
+              </MediaFile>
+            </MediaFiles>
+          </Linear>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+</VAST>
