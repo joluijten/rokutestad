@@ -16,9 +16,6 @@
               <MediaFile 
                 delivery="progressive" 
                 type="video/mp4" 
-                width="1920" 
-                height="1080" 
-                bitrate="1500" 
                 scalable="true" 
                 maintainAspectRatio="true">
                 <![CDATA[https://archive.org/download/Popeye_forPresident/Popeye_forPresident_512kb.mp4]]>
